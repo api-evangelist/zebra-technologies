@@ -1,0 +1,89 @@
+aid: zebra-technologies
+name: Zebra Technologies
+description: >-
+  Zebra Technologies is a global leader in barcode printing, RFID, mobile computing,
+  and machine vision solutions for manufacturing, warehousing, healthcare, and retail.
+  The Zebra Developer Portal and TechDocs expose cloud REST APIs for printing, device
+  management, barcode generation, RFID IoT connectivity, asset tracking, and label
+  design, enabling integration of Zebra hardware into enterprise workflows and
+  manufacturing operations systems.
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/heads/main/apis.yml
+tags:
+  - Manufacturing
+  - RFID
+  - Barcode
+  - Warehouse Automation
+  - IoT
+  - Industrial IoT
+  - Fortune 500
+created: '2026-06-05'
+modified: '2026-06-05'
+specificationVersion: '0.19'
+apis:
+  - aid: zebra-technologies:zebra-data-services-api
+    name: Zebra Data Services API
+    description: >-
+      Zebra Data Services provides cloud REST APIs for managing Zebra devices, printers,
+      and scanners enrolled in the Zebra cloud. The API covers asset ownership service
+      (AOS), cloud print via SendFileToPrinter, device management, and barcode generation
+      across 103 barcode types. Requires an APP Key obtained through the Zebra Developer
+      Portal.
+    humanURL: https://developer.zebra.com/apis
+    baseURL: https://api.zebra.com
+    tags:
+      - Barcode
+      - RFID
+      - Printing
+      - Device Management
+      - Cloud
+      - REST
+    properties:
+      - url: https://developer.zebra.com/apis
+        type: Documentation
+      - url: https://developer.zebra.com/docs/getting-started
+        type: GettingStarted
+  - aid: zebra-technologies:zebra-rfid-iot-connector-api
+    name: Zebra RFID IoT Connector REST API
+    description: >-
+      The Zebra IoT Connector (ZIOTC) provides a local deployment REST API for managing
+      RFID reader configuration, tag data collection, and event streaming on Zebra fixed
+      RFID readers. Enables integration of real-time RFID data into manufacturing
+      execution systems, WMS, and IoT platforms.
+    humanURL: https://zebradevs.github.io/rfid-ziotc-docs/api_ref/local_rest/index.html
+    baseURL: https://{reader-host}/
+    tags:
+      - RFID
+      - IoT
+      - Manufacturing
+      - Warehouse Automation
+      - REST
+    properties:
+      - url: https://zebradevs.github.io/rfid-ziotc-docs/api_ref/local_rest/index.html
+        type: Documentation
+      - url: https://techdocs.zebra.com/
+        type: Portal
+common:
+  - type: Website
+    url: https://www.zebra.com
+  - type: Portal
+    url: https://developer.zebra.com
+  - type: Documentation
+    url: https://techdocs.zebra.com/
+  - type: Blog
+    url: https://www.zebra.com/us/en/blog.html
+  - type: GitHubOrganization
+    url: https://github.com/ZebraDevs
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/zebra-technologies
+  - type: YouTube
+    url: https://www.youtube.com/@ZebraTechnologies
+  - type: SignUp
+    url: https://developer.zebra.com/
+  - type: About
+    url: https://www.zebra.com/us/en/about-zebra.html
+  - type: Support
+    url: https://www.zebra.com/us/en/support-downloads.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
