@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "zebra": "https://developer.zebra.com/vocab/",
+    "gs1": "https://gs1.org/voc/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "sameAs": "schema:sameAs",
+    "industry": "schema:industry",
+    "ZebraTechnologies": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "manufacturer": "schema:manufacturer",
+    "product": "schema:product",
+    "Barcode": {
+      "@id": "gs1:Barcode",
+      "@type": "@id"
+    },
+    "barcodeType": "zebra:barcodeType",
+    "barcodeValue": "zebra:barcodeValue",
+    "barcodeFormat": "zebra:barcodeFormat",
+    "RFIDTag": {
+      "@id": "zebra:RFIDTag",
+      "@type": "@id"
+    },
+    "epc": "zebra:epc",
+    "tid": "zebra:tid",
+    "antennaId": "zebra:antennaId",
+    "rssi": "zebra:rssi",
+    "peakRssi": "zebra:peakRssi",
+    "phase": "zebra:phase",
+    "channel": "zebra:channel",
+    "Printer": {
+      "@id": "zebra:Printer",
+      "@type": "@id"
+    },
+    "serialNumber": "schema:serialNumber",
+    "model": "schema:model",
+    "firmwareVersion": "zebra:firmwareVersion",
+    "printerStatus": "zebra:printerStatus",
+    "Device": {
+      "@id": "schema:Device",
+      "@type": "@id"
+    },
+    "deviceId": "zebra:deviceId",
+    "deviceType": "zebra:deviceType",
+    "enrollmentDate": "zebra:enrollmentDate",
+    "onlineStatus": "zebra:onlineStatus",
+    "PrintJob": {
+      "@id": "zebra:PrintJob",
+      "@type": "@id"
+    },
+    "jobId": "zebra:jobId",
+    "jobStatus": "zebra:jobStatus",
+    "labelFormat": "zebra:labelFormat",
+    "fileContent": "zebra:fileContent",
+    "AssetOwnership": {
+      "@id": "zebra:AssetOwnership",
+      "@type": "@id"
+    },
+    "ownerId": "zebra:ownerId",
+    "assetId": "zebra:assetId",
+    "transferDate": "zebra:transferDate",
+    "RFIDReader": {
+      "@id": "zebra:RFIDReader",
+      "@type": "@id"
+    },
+    "readerHost": "zebra:readerHost",
+    "readerMode": "zebra:readerMode",
+    "antennaCount": "zebra:antennaCount",
+    "tagPopulation": "zebra:tagPopulation"
+  }
+}

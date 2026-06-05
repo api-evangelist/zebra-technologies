@@ -1,0 +1,14 @@
+{
+  "repo": "zebra-technologies",
+  "feeds": [
+    {
+      "source": "https://www.zebra.com/us/en/blog.html",
+      "feed_url": "https://www.zebra.com/us/en/blog.html",
+      "title": "Zebra Technologies Blog",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

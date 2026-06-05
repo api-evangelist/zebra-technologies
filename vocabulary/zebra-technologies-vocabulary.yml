@@ -1,0 +1,142 @@
+name: Zebra Technologies Vocabulary
+description: >-
+  Key domain terms used across Zebra Technologies APIs for barcode printing,
+  RFID, device management, cloud printing, and industrial IoT connectivity
+  in manufacturing, warehousing, healthcare, and retail environments.
+version: "1.0"
+terms:
+  - term: Barcode
+    definition: >-
+      A machine-readable optical label encoding data about an item using
+      parallel lines (1D) or patterns (2D). Zebra supports over 103 barcode
+      symbologies including Code 128, QR Code, DataMatrix, PDF417, and EAN/UPC.
+    tags:
+      - barcode
+      - scanning
+      - data-capture
+
+  - term: RFID
+    definition: >-
+      Radio-Frequency Identification — a wireless technology using
+      electromagnetic fields to automatically identify and track tags attached
+      to objects. Zebra fixed readers (FX7500, FX9600, FXR90) and handheld
+      devices support EPC Gen2 UHF RFID for inventory and asset tracking.
+    tags:
+      - rfid
+      - iot
+      - asset-tracking
+
+  - term: EPC
+    definition: >-
+      Electronic Product Code — a global standard for uniquely identifying
+      physical objects using RFID tags. An EPC value is encoded in the RFID
+      tag's memory and read by Zebra RFID readers during inventory operations.
+    tags:
+      - rfid
+      - epc
+      - gs1
+
+  - term: ZPL
+    definition: >-
+      Zebra Programming Language — the native command language used to define
+      label formats and print commands for Zebra label printers. ZPL files
+      describe layout, fonts, barcodes, and graphics sent via the cloud print
+      or direct network print path.
+    tags:
+      - printing
+      - label
+      - zpl
+
+  - term: SendFileToPrinter
+    definition: >-
+      A Zebra Data Services REST API operation that sends a ZPL or other print
+      file to a cloud-enrolled Zebra printer identified by its serial number.
+      Requires an APP Key for authentication.
+    tags:
+      - printing
+      - cloud
+      - api
+
+  - term: Asset Ownership Service (AOS)
+    definition: >-
+      A Zebra cloud API service that tracks and manages ownership and transfer
+      of Zebra hardware assets (printers, mobile computers, scanners) across
+      enterprise accounts, enabling lifecycle management and entitlement control.
+    tags:
+      - asset-management
+      - ownership
+      - cloud
+
+  - term: IoT Connector (ZIOTC)
+    definition: >-
+      Zebra IoT Connector — a software component on Zebra fixed RFID readers
+      enabling local REST API control, MQTT event streaming, and cloud
+      integration for real-time tag data collection and reader configuration.
+    tags:
+      - rfid
+      - iot
+      - mqtt
+
+  - term: APP Key
+    definition: >-
+      The authentication credential issued through the Zebra Developer Portal
+      required to call Zebra Data Services APIs (barcode generation, cloud
+      print, device management). Passed as a header or query parameter in
+      API requests.
+    tags:
+      - authentication
+      - api-key
+      - security
+
+  - term: RSSI
+    definition: >-
+      Received Signal Strength Indicator — the signal level of an RFID tag
+      read event returned by Zebra RFID readers. Used for proximity estimation
+      and location inference in warehouse and manufacturing environments.
+    tags:
+      - rfid
+      - signal
+      - location
+
+  - term: Device Management
+    definition: >-
+      Remote monitoring, configuration, and administration of Zebra mobile
+      computers, printers, and scanners enrolled in the Zebra cloud platform.
+      Encompasses firmware updates, policy enforcement, diagnostics, and status.
+    tags:
+      - device-management
+      - cloud
+      - enterprise
+
+  - term: Label Design
+    definition: >-
+      The process of creating print-ready label templates specifying barcode
+      placement, text fields, images, and formatting for Zebra label printers.
+      Labels are typically expressed in ZPL and rendered server-side or
+      on-device before printing.
+    tags:
+      - printing
+      - label
+      - design
+
+  - term: WMS Integration
+    definition: >-
+      Warehouse Management System integration — connecting Zebra RFID and
+      barcode devices to WMS platforms (SAP, Manhattan, Blue Yonder) via REST
+      APIs or event streams to update inventory, receiving, picking, and
+      shipping workflows in real time.
+    tags:
+      - wms
+      - integration
+      - warehouse
+
+  - term: Antenna Port
+    definition: >-
+      A physical connection point on a Zebra fixed RFID reader to which an
+      RFID antenna is attached. Each port is independently configurable with
+      transmit power, sensitivity, and dwell-time settings accessible via
+      the IoT Connector REST API.
+    tags:
+      - rfid
+      - antenna
+      - hardware
