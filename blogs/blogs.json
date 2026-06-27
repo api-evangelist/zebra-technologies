@@ -3,19 +3,12 @@
   "feeds": [
     {
       "source": "https://www.zebra.com/us/en/blog.html",
-      "feed_url": "https://www.zebra.com/us/en/blog.html",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://techdocs.zebra.com/",
-      "feed_url": "https://techdocs.zebra.com/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "feed_url": "",
+      "saved": 4,
+      "method": "agent-scrape"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 9,
+  "fetched": "2026-06-27T13:22:37Z",
+  "agent_pulled": "2026-06-27"
 }

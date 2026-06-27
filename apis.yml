@@ -78,7 +78,7 @@ common:
     url: https://www.linkedin.com/company/zebra-technologies
   - type: YouTube
     url: https://www.youtube.com/@ZebraTechnologies
-  - type: SignUp
+  - type: Signup
     url: https://developer.zebra.com/
   - type: About
     url: https://www.zebra.com/us/en/about-zebra.html
