@@ -64,6 +64,8 @@ apis:
       - url: https://techdocs.zebra.com/
         type: Portal
 common:
+  - type: DomainSecurity
+    url: security/zebra-technologies-domain-security.yml
   - type: Website
     url: https://www.zebra.com
   - type: Portal
