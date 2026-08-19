@@ -31,7 +31,7 @@ tags:
   - Fortune 500
 created: '2026-06-05'
 modified: '2026-06-05'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: zebra-technologies:zebra-data-services-api
     name: Zebra Data Services API
