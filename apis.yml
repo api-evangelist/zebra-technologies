@@ -35,7 +35,7 @@ url: https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/he
 tags:
   - Manufacturing
   - RFID
-  - Barcode
+  - Barcodes
   - Warehouse Automation
   - IoT
   - Industrial IoT
@@ -63,7 +63,7 @@ apis:
     humanURL: https://developer.zebra.com/apis
     baseURL: https://api.zebra.com
     tags:
-      - Barcode
+      - Barcodes
       - RFID
       - Printing
       - Device Management
