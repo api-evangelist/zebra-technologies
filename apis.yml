@@ -124,6 +124,8 @@ common:
     url: https://www.zebra.com/us/en/about-zebra.html
   - type: Support
     url: https://www.zebra.com/us/en/support-downloads.html
+  - type: SpectralRules
+    url: https://github.com/ZebraDevs/SWS-API_Linting_Ruleset/blob/7c42468b9859f2f1b160e9b589090b52f259bc58/.spectral.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
