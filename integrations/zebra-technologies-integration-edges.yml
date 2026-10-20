@@ -2,6 +2,7 @@ generated: '2026-10-14'
 method: searched
 checked:
 - https://plugins.jetbrains.com/
+- https://www.emvco.com/approved-products-search/?type=approved-products&sub_type=acceptance_device
 marketplace_apps: []
 edges:
 - partner_name: JetBrains Marketplace
@@ -21,5 +22,41 @@ edges:
   - Verified vendor
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: 'EMVCo (Approved Products: acceptance devices)'
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.emvco.com/approved-products/tcw01x-a-version-dv2/
+  category: Card acceptance type approval
+  contract_reference:
+    register: EMVCo Approved Products, Acceptance Device (emvco.com/approved-products-search)
+    standard: EMVCo
+    spec_file: null
+    role: emvco-approved-acceptance-device-vendor
+    registered_name: Zebra Technologies Corporation
+    register_id: https://www.emvco.com/approved-products/tcw01x-a-version-dv2/
+    matched_domain: null
+    matched_by: register-name
+    identity_source: register-name
+    identity_note: register-name 'zebratechnologies' = zebra-technologies; wikidata P856 zebra.com agrees or unheld
+    certified_products:
+    - product: EMVCo L1 Contact IFMs
+      approval_type: L1 Contact IFMs
+      lapsed: true
+      latest_valid_to: '2023-02-06'
+    - product: EMVCo L1 Contactless Reduced Range (RR) PCDs
+      approval_type: L1 Contactless Reduced Range (RR) PCDs
+      lapsed: false
+      latest_valid_to: '2029-06-16'
+    signal_note: certified_products = one entry per EMVCo acceptance-device approval TYPE (L1 contact IFM, L1 contactless
+      PCD, L2 contact kernel, contactless product, C-8 kernel, terminal ESD); lapsed = every approval of that type
+      is past its valid-to date; approval / product / version counts are never recorded or counted
+    detected_by: sweep-emv-card-terminals.py
+    detected: '2026-10-20'
+  detected_by: sweep-emv-card-terminals.py
+  first_seen: '2026-10-20'
 source:
 - https://plugins.jetbrains.com/
