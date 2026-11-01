@@ -1,4 +1,4 @@
-# Zebra Technologies (zebra-technologies)
+# Zebra Technologies
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,84 +66,104 @@
 
 Zebra Technologies is a global leader in barcode printing, RFID, mobile computing, and machine vision solutions for manufacturing, warehousing, healthcare, and retail. The Zebra Developer Portal and TechDocs expose cloud REST APIs for printing, device management, barcode generation, RFID IoT connectivity, asset tracking, and label design, enabling integration of Zebra hardware into enterprise workflows and manufacturing operations systems.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/heads/main/apis.yml)
+**Areas:** Manufacturing · RFID · Barcodes · Warehouse Automation · IoT · Industrial IoT · Fortune 500
 
-## Scope
+## Zebra Technologies on APIs.io
 
-- **Type:** Index
+Everything profiled for Zebra Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zebra-technologies/](https://apis.io/providers/zebra-technologies/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Manufacturing
-- RFID
-- Barcode
-- Warehouse Automation
-- IoT
-- Industrial IoT
-- Fortune 500
+- [Zebra Data Services API](https://apis.io/apis/zebra-technologies/zebra-data-services-api/) — Zebra Data Services provides cloud REST APIs for managing Zebra devices, printers, and scanners enrolled in the Zebra cloud. The API covers asset ownership…
+- [Zebra RFID IoT Connector REST API](https://apis.io/apis/zebra-technologies/zebra-rfid-iot-connector-api/) — The Zebra IoT Connector (ZIOTC) provides a local deployment REST API for managing RFID reader configuration, tag data collection, and event streaming on…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-05
-- **Modified:** 2026-06-05
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON-LD (1)
 
-### Zebra Data Services API
+Linked-data contexts for the provider's vocabulary.
 
-Zebra Data Services provides cloud REST APIs for managing Zebra devices, printers, and scanners enrolled in the Zebra cloud. The API covers asset ownership service (AOS), cloud print via SendFileToPrinter, device management, and barcode generation across 103 barcode types. Requires an APP Key obtained through the Zebra Developer Portal.
+- [Zebra Technologies Context](https://apis.io/jsonld/zebra-technologies/zebra-technologies-context/)
 
-- **Human URL:** [https://developer.zebra.com/apis](https://developer.zebra.com/apis)
-- **Base URL:** `https://api.zebra.com`
+#### Vocabulary (1)
 
-#### Tags
+The provider's domain terms, defined.
 
-- Barcode
-- RFID
-- Printing
-- Device Management
-- Cloud
-- REST
+- [Zebra Technologies Vocabulary](https://apis.io/vocabularies/zebra-technologies/zebra-technologies-vocabulary/)
 
-#### Properties
+#### Governance rules (1)
 
-- [Documentation](https://developer.zebra.com/apis)
-- [Getting Started](https://developer.zebra.com/docs/getting-started)
+Spectral rulesets for the provider's contracts.
 
-### Zebra RFID IoT Connector REST API
+- [Zebra Technologies — sws api linting ruleset rules](https://apis.io/rules/zebra-technologies/zebra-technologies-sws-api-linting-ruleset-spectral-rules/)
 
-The Zebra IoT Connector (ZIOTC) provides a local deployment REST API for managing RFID reader configuration, tag data collection, and event streaming on Zebra fixed RFID readers. Enables integration of real-time RFID data into manufacturing execution systems, WMS, and IoT platforms.
+#### Security (1)
 
-- **Human URL:** [https://zebradevs.github.io/rfid-ziotc-docs/api_ref/local_rest/index.html](https://zebradevs.github.io/rfid-ziotc-docs/api_ref/local_rest/index.html)
-- **Base URL:** `https://{reader-host}/`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Zebra Technologies Domain Security](https://apis.io/security/zebra-technologies/zebra-technologies-domain-security/)
 
-- RFID
-- IoT
-- Manufacturing
-- Warehouse Automation
-- REST
+## Where to find this API
 
-#### Properties
-
-- [Documentation](https://zebradevs.github.io/rfid-ziotc-docs/api_ref/local_rest/index.html)
-- [Portal](https://techdocs.zebra.com/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.zebra.com)
-- [Portal](https://developer.zebra.com)
 - [Documentation](https://techdocs.zebra.com/)
-- [Blog](https://www.zebra.com/us/en/blog.html)
-- [GitHub Organization](https://github.com/ZebraDevs)
-- [LinkedIn](https://www.linkedin.com/company/zebra-technologies)
-- [YouTube](https://www.youtube.com/@ZebraTechnologies)
-- [Sign Up](https://developer.zebra.com/)
-- [About](https://www.zebra.com/us/en/about-zebra.html)
 - [Support](https://www.zebra.com/us/en/support-downloads.html)
+- [Blog](https://www.zebra.com/us/en/blog.html)
+- [GitHub](https://github.com/ZebraDevs)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 24.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 10.7 |
+| Contract governance | 45.5 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zebra-technologies/](https://apis.io/providers/zebra-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zebra Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zebra-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
